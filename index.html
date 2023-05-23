@@ -10,21 +10,31 @@
 <body>
 
     <header>
-        <p>Grandes ofertas en comederos</p>
-        <ul>
-            <li>Español</li>
-            <li>ARG$</li>
-        </ul>
-
-        <div>
-            <img src="img/Logo.png" alt="logo PetShop">
+        <div class="grantesOfertas lista">            
+                <span>Grandes ofertas en comederos</span> 
+                <select name="moneda" >
+                    <option value="ARG$">ARG$</option>
+                    <option value="US$">US$</option>
+                    <option value="EURO">EURO</option>
+                    <option value="LIBRAS">LIBRAS</option>
+                </select> 
+                <select name="lenguaje" >
+                    <option value="ESPAÑOL">ESPAÑOL</option>
+                    <option value="INGLES">INGLES</option>
+                    <option value="ALEMAN">ALEMAN</option>
+                    <option value="JAPONES">JAPONES</option>
+                </select>                                                      
         </div>
-        <nav>
-           <p><img src="img/huellaBlanca.png" alt="huella">Categorias</p>
-           <p><img src="img/huellaBlanca.png" alt="huella">Pets</p>
-           <p><img src="img/huellaBlanca.png" alt="huella">Nosotros</p>
-           <p><img src="img/huellaBlanca.png" alt="huella">contactanos</p>
-        </nav>
+        <div class="navegador">
+            <img src="img/Logo.png" alt="logo PetShop">
+            <nav class="nav">
+                <a class="sinDecoracion" href=""><span><img src="img/huellaBlanca.png" alt="huella">Categorias</span> </a>                      
+                <a class="sinDecoracion" href=""><span><img src="img/huellaBlanca.png" alt="huella">Pets</span></a>   
+                <a class="sinDecoracion" href=""><span><img src="img/huellaBlanca.png" alt="huella">Nosotros</span></a>
+                <a class="sinDecoracion" href=""><span><img src="img/huellaBlanca.png" alt="huella">Contactanos</span></a>
+            </nav>
+        </div>
+        
     </header>
 
     <main>

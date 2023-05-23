@@ -1,0 +1,33 @@
+.grantesOfertas{
+background-color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+border: solid 0.5px black;
+}
+
+.lista select
+{
+   list-style-type: none;
+   display: inline;
+   padding-right:0px;
+   float: right;
+   background-color: black;
+   color: white;
+   border: none ;
+}
+
+.navegador{
+background-color: orange;
+border: 5px solid orange;
+
+}
+
+.nav {
+float: right;
+
+}
+
+.sinDecoracion{
+text-decoration: none; 
+color: white;
+}
