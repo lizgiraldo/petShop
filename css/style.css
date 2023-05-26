@@ -8,8 +8,51 @@ color: white;
 border: solid 0.5px black;
 }
 
-.fondo{
-   background-size: cover  ;
+.fondo img{
+   /* background-size: cover  ; */
+   width: 100%;
+   height: auto;
+   position: relative;
+   display: inline-block;
+   text-align: center;
+}
+
+.texto-encima{
+   font-size: 37px;
+   background-color: white;
+   border-radius: 5px;
+   border: 5px solid white;
+   position: absolute;
+   top: 285px;
+   left:1341px;
+   transform: translate(-50%, -50%);
+   font-family:'Roboto', sans-serif; 
+   height: 49px;
+   width: 436px;
+}
+
+.texto-encima1{
+   font-size: 20px;
+   position: absolute;
+   top: 350px;
+   left:1340px;
+   transform: translate(-50%, -50%);
+   font-family:'Roboto', sans-serif;
+}
+
+.boton{
+   background-color:orange;
+   position: absolute;
+   top: 385px;
+   left: 1262px;
+   height: 40px;
+   width: 150px;
+   border-radius: 5px;
+   border: 5px solid orange;
+   font-family:'Roboto', sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   color: white;
 }
 
 .lista select
