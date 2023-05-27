@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400&family=Marvel:wght@700&family=Roboto:wght@300;400;500&display=swap');
 
-
-
 .grantesOfertas{
 background-color: black;
 font-family: 'Roboto', sans-serif;
@@ -12,12 +10,11 @@ border: solid 0.5px black;
 
 .fondo img{
    /* background-size: cover  ; */
+   display: flex;
    width: 100%;
-   height: auto;
-   position: relative;
-   display: inline-block;
-   text-align: center;
 }
+
+
 
 .texto-encima{
    font-size: 37px;
@@ -95,5 +92,15 @@ line-height: 0;
 font-family: 'Roboto', sans-serif;
 font-size: 30px;
 color: rgb(131, 34, 34);
+margin: 45px;
+}
+
+.subtituloPeque{
+font-family: 'Roboto', sans-serif;
+}
+
+.articulos{
+   display: flex;
+   justify-content: space-evenly;
 }
 
