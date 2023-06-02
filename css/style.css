@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400&family=Marvel:wght@700&family=Roboto:wght@300;400;500&display=swap');
-
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 .grantesOfertas{
+height: 20px;
 background-color: black;
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
 color: white;
 border: solid 0.5px black;
+padding-left: 90px;
+padding-right: 60px;
 }
 
-.fondo img{
-   /* background-size: cover  ; */
-   display: flex;
+
+.fondo{   
+  display: flex;
    width: 100%;
+   height: 409px;
 }
 
 
@@ -21,33 +29,33 @@ border: solid 0.5px black;
    background-color: white;
    border-radius: 5px;
    border: 5px solid white;
-   position: absolute;
+   /* position: absolute;
    top: 285px;
-   left:1341px;
-   transform: translate(-50%, -50%);
+   left:1341px; */
+   /* transform: translate(-50%, -50%); */
    font-family:'Roboto', sans-serif; 
-   height: 49px;
-   width: 436px;
+   /* height: 49px;
+   width: 436px; */
 }
 
 .texto-encima1{
    font-size: 20px;
-   position: absolute;
+   /* position: absolute;
    top: 350px;
    left:1340px;
-   transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%); */
    font-family:'Roboto', sans-serif;
 }
 
 .boton{
-   background-color:orange;
+   background-color:#F0A83E;
    position: absolute;
    top: 385px;
    left: 1262px;
    height: 40px;
    width: 150px;
    border-radius: 5px;
-   border: 5px solid orange;
+   border: 5px solid #F0A83E;
    font-family:'Roboto', sans-serif;
    font-size: 20px;
    font-weight: 500;
@@ -67,20 +75,43 @@ border: solid 0.5px black;
 }
 
 .navegador{
-background-color: orange;
-border: 5px solid orange;
+
+background-color: #F0A83E;
+border: 5px solid #F0A83E;
+width: 100%;
+height: 62px;
+padding-left:40px;
+padding-top: 15px;
+
 }
 
-.nav {
+.logoPet{
+   position: absolute;
+   width: 166.38px;
+   height: 23px;
+   
+}
+
+.nav{
 float: right;
+display: flex;
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
-
+padding-right: 25px;
 }
 
-.sinDecoracion{
+.nav li{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+
+.sinDecoracion {
 text-decoration: none; 
 color: white;
+}
+
+.sinDecoracion img{
+   padding-left: 5px;
 }
 
 .productosDestacados{
@@ -102,5 +133,10 @@ font-family: 'Roboto', sans-serif;
 .articulos{
    display: flex;
    justify-content: space-evenly;
+}
+
+.sinStyle{
+   list-style: none;
+   display: flex;
 }
 
