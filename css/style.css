@@ -146,10 +146,112 @@ font-size: 18px;
 .articulos{
    display: flex;
    justify-content: space-evenly;
+   padding-bottom: 130px;
 }
 
 .sinStyle{
    list-style: none;
    display: flex;
 }
+
+.contenedorPrecios{
+   background-color: #FBFAF6;
+   width: 265px;
+   height: 312px;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+   
+}
+
+.contenedorPrecios p {
+   color: #F0A83E;
+   font-weight: 500;   
+}
+
+.contenedorPrecios h3{
+   color:#3C2313;
+}
+
+.formulario{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.contactanos{
+   display: flex;
+   flex-direction: column;
+}
+
+.contactanos input{
+   width: 340px;
+   height: 40px;
+   border-radius: 15px;
+   background-color:#3C2313;
+   color: white;
+   padding-left: 10px;
+}
+
+.formulario h2 {
+   font-family: 'Roboto', sans-serif;
+   color:#3C2313;
+   font-size: 25px;
+
+
+}
+
+.botones{
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 15px;
+}
+
+.botones input{
+   width: 110px;
+   height: 34px;
+   border-radius: 10px;
+}
+
+.resetear {
+   background-color: #8A8787;
+   color: white;
+   border: #8A8787;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.enviar {
+   background-color: #F0A83E;
+   color: white;
+   border: #F0A83E;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+::placeholder{
+   color: white;
+   font-size: 0.7rem;
+   font-family: 'Roboto', sans-serif;
+   padding-left: 5px;
+   font-weight: 100;
+}
+
+.contactanos p{
+   margin: 5px;
+}
+
+.fomularioContacto{ 
+   padding: 20px;  
+}
+
+.suscribete{
+   display: flex;
+   background-color: #F0A83E;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   justify-content: space-between;
+   height: 60px;
+}
+
 
