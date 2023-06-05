@@ -254,4 +254,16 @@ font-size: 18px;
    height: 60px;
 }
 
+footer{
+   display: flex;
+   flex-direction: column;
+   background-color: #3C2313;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+}
+
+.footerPadre{
+  
+}
+
 
