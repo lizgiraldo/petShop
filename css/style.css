@@ -23,8 +23,9 @@ padding-right: 60px;
 }
 
 .fondo img{
+   background-size: cover;
    width: 100%;
-   height: 409px;
+   height:auto ;
 }
 
 .comedero{
@@ -125,17 +126,21 @@ color: white;
 .productosDestacados{
 text-align: center;
 line-height: 0;
+padding-top:25px;
+padding-bottom: 60px;
 }
 
 .tituloPrincipal{
 font-family: 'Roboto', sans-serif;
-font-size: 30px;
+font-size: 45px;
 color: rgb(131, 34, 34);
-margin: 45px;
+margin-top: 35px;
+margin-bottom: 63px;
 }
 
 .subtituloPeque{
 font-family: 'Roboto', sans-serif;
+font-size: 18px;
 }
 
 .articulos{
