@@ -100,48 +100,74 @@
         <h2>Contactanos</h2>
         <form action="" class="fomularioContacto">
           <div class="contactanos">
-            <p><input type="text" name="usuario" placeholder="Nombre y Apellidos" /></p>
-            <p><input type="email" name="mail" placeholder="Ingresa Correo Electronico"/></p>
-            <p><input type="text" name="telefono" placeholder="Telefonos" /></p>            
+            <p>
+              <input
+                type="text"
+                name="usuario"
+                placeholder="Nombre y Apellidos"
+              />
+            </p>
+            <p>
+              <input
+                type="email"
+                name="mail"
+                placeholder="Ingresa Correo Electronico"
+              />
+            </p>
+            <p><input type="text" name="telefono" placeholder="Telefonos" /></p>
           </div>
-          <p class="botones"> 
-            <input type="submit" value="Resetear" class="resetear"/>
-            <input type="submit" type="reset" value="Enviar" class="enviar"/>
+          <p class="botones">
+            <input type="submit" value="Resetear" class="resetear" />
+            <input type="submit" type="reset" value="Enviar" class="enviar" />
           </p>
         </form>
       </section>
 
       <section class="suscribete">
-        <h2>
-          <img src="img/enviar-correo 1.png" alt="suscripcion" />Suscribete para
-          más novedades
-        </h2>
-        <p>
-            <input type="text" name="Ingresa tu correo electronico" />
-            <input type="submit" value="Suscribirme" />
+        <div class="soyh2">
+          <img src="img/enviar-correo 1.png" alt="suscripcion" />
+          <h2>Suscribete para más novedades</h2>
+        </div>
+
+        <p class="soyP">
+          <input
+            class="correo"
+            type="text"
+            value="Ingresa tu correo electronico"
+          />
+          <input class="suscribirme" type="submit" value="Suscribirme" />
         </p>
-        
       </section>
     </main>
 
     <footer>
-      <div class="footerPadre">
-        <img src="img/Icono-ubication.png" alt="icono ubicacion" />
-        <p>Localidad</p>
-        <h6>Ceiba - providencia</h6>
-      
-        <img src="img/Icono-telephone.png" alt="icono telefono" />
-        <p>Teléfono</p>
-        <h6>Numero Telefonico</h6>
-      
-        <img src="img/Icono-mail.png" alt="icono emil" />
-        <p>Correo electronico</p>
-        <h6>Dirección de correo</h6>
-      </div>
-      <div>
-        <img src="img/Logo.png" alt="logo PetShop" />
-      </footer>
-      </div>
-      
+      <section class="footerPadre">
+        <div class="contenedorTodos">
+          <img src="img/Icono-ubication.png" alt="icono ubicacion" />
+          <p>
+            <span class="spanTitulos">Localidad</span>
+            <span class="spanSubtitulos">Ceiba - providencia</span>
+          </p>
+        </div>
+        <div class="contenedorTodos">
+          <img src="img/Icono-telephone.png" alt="icono telefono" />
+          <p>
+            <span class="spanTitulos">Teléfono</span>
+            <span class="spanSubtitulos">Numero de teléfono</span>
+            <div class="logoFooter">
+                <img src="img/LogoFooter.png" alt="logo PetShop" />
+              </div>
+        </p>
+          
+        </div>
+        <div class="contenedorTodos">
+          <img src="img/Icono-mail.png" alt="icono email" />
+          <p>
+            <span class="spanTitulos">Correo Electrónico</span>
+            <span class="spanSubtitulos">Dirección de correo</span>
+          </p>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

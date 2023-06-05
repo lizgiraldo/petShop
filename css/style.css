@@ -254,8 +254,43 @@ font-size: 18px;
    height: 60px;
 }
 
+.soyh2 img{
+   position: absolute;
+   margin-left: 20px;
+   margin-top: 11px;
+}
+
+.soyh2 h2{
+   margin-left: 77px;
+   margin-top: 16px;
+}
+
+.correo{
+   width: 271px;
+   height: 40px;
+   border: white;
+   border-radius: 15px;
+   color: #A0A0A0;
+   padding-left: 8px;
+   margin-top: 10px;
+}
+
+.suscribirme{
+   width: 70px;
+   height: 34px;
+   background-color:#3C2313;
+   border-radius: 15px;
+   color: white;
+   font-size: 9px;
+   padding-top: 3px;
+}
+
+.soyP{
+   padding-right: 14px;
+}
+
 footer{
-   display: flex;
+   
    flex-direction: column;
    background-color: #3C2313;
    color: white;
@@ -263,7 +298,46 @@ footer{
 }
 
 .footerPadre{
-  
+   display: flex; 
+   flex-direction: column;
+   padding-left: 70px;
+   padding-top: 23px;
 }
+
+.contenedorTodos{
+   
+   display: flex;
+   margin-bottom: 22px; 
+   
+}
+
+.contenedorTodosBet{
+   display: flex;
+   margin-bottom: 22px;
+}
+
+.contenedorTodos p{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 15px;
+   
+   
+}
+
+.spanTitulos{
+   font-size: 20px;
+   font-weight: 500;
+}
+.spanSubtitulos{
+   font-size: 10px;
+}
+
+.logoFooter{
+   margin-top: 20px;
+   margin-left:60%;
+}
+
+
 
 
